@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+    <div class="container">
+        <a href="#" class="logo">Modern<span>Blog</span></a>
+        <div class="nav-links">
+            <!-- Regular links -->
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#blogs" class="nav-link">Blogs</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#contact" class="nav-link">Contact</a>
+            
+            <!-- Theme toggle -->
+            <div class="theme-switch-wrapper">
+                <span class="theme-icon"><i class="fas fa-moon"></i></span>
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox" />
+                    <div class="slider round"></div>
+                </label>
+                <span class="theme-icon"><i class="fas fa-sun"></i></span>
+            </div>
+            
+            <!-- Mobile toggle button -->
+            <button class="menu-toggle" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </div>
+</nav>
+
+<!-- Mobile menu -->
+<div class="mobile-menu">
+    <a href="#home" class="mobile-nav-link active">Home</a>
+    <a href="#blogs" class="mobile-nav-link">Blogs</a>
+    <a href="#about" class="mobile-nav-link">About</a>
+    <a href="#contact" class="mobile-nav-link">Contact</a>
+</div>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="slide-in">Welcome to Modern Blog</h1>
+                <p class="slide-in">Discover insightful articles on technology, design, and more</p>
+                <a href="#blogs" class="btn slide-in">Explore Blogs</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Featured Blog Section -->
+    <section class="featured-blog">
+        <div class="container">
+            <h2 class="section-title">Featured Post</h2>
+            <div class="featured-card fade-in">
+                <div class="featured-image">
+                    <img src="featured.avif" alt="Featured Blog">
+                </div>
+                <div class="featured-content">
+                    <span class="category">Technology</span>
+                    <h3>The Future of Web Development in 2026</h3>
+                    <p>Explore the latest trends and technologies shaping the future of web development, from AI integration to advanced CSS techniques.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blogs" class="blog-section">
+        <div class="container">
+            <h2 class="section-title">Latest Articles</h2>
+            <div class="blog-grid">
+                <!-- Blog Card 1 -->
+                <div class="blog-card fade-in">
+                    <div class="blog-image">
+                        <img src="card-1.avif" alt="Blog Post">
+                    </div>
+                    <div class="blog-content">
+                        <span class="category">Design</span>
+                        <h3>Minimalist Design Principles</h3>
+                        <p>Learn how to apply minimalist design principles to create clean, effective user interfaces that enhance user experience.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Blog Card 2 -->
+                <div class="blog-card fade-in">
+                    <div class="blog-image">
+                        <img src="card-2.avif" alt="Blog Post">
+                    </div>
+                    <div class="blog-content">
+                        <span class="category">Productivity</span>
+                        <h3>Boost Your Coding Productivity</h3>
+                        <p>Discover tools and techniques that can help you write better code faster and with fewer errors.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Blog Card 3 -->
+                <div class="blog-card fade-in">
+                    <div class="blog-image">
+                        <img src="card-3.avif" alt="Blog Post">
+                    </div>
+                    <div class="blog-content">
+                        <span class="category">Technology</span>
+                        <h3>Understanding AI and Machine Learning</h3>
+                        <p>A beginner's guide to artificial intelligence and machine learning concepts and applications.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!--Blog card 4 -->
+                <div class="blog-card fade-in">
+                    <div class="blog-image">
+                        <img src="card-4.avif" alt="JavaScript Programming">
+                    </div>
+                    <div class="blog-content">
+                        <span class="category">Programming</span>
+                        <h3>Modern JavaScript Techniques</h3>
+                        <p>Explore the latest JavaScript features including ES6+ syntax, async/await, and modern frameworks that every developer should know.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Blog Card 5 -->
+                <div class="blog-card fade-in">
+                    <div class="blog-image">
+                        <img src="card-5.avif" alt="Blog Post">
+                    </div>
+                    <div class="blog-content">
+                        <span class="category">Career</span>
+                        <h3>Building a Successful Tech Career</h3>
+                        <p>Strategies and tips for advancing your career in the fast-paced world of technology.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!--Blog card 6-->
+                <div class="blog-card fade-in">
+                    <div class="blog-image">
+                        <img src="card-6.jpg" alt="Blog Post">
+                    </div>
+                     <div class="blog-content">  
+                        <span class="category">Work</span>
+                        <h3>Mastering Remote Work</h3>
+                        <p>Essential strategies for staying productive and maintaining work-life balance in remote work environments.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                 <!--Blog card 6-->
+                <div class="blog-card fade-in">
+                    <div class="blog-image">
+                        <img src="card-7.jpg" alt="Blog Post">
+                    </div>
+                     <div class="blog-content">  
+                        <span class="category">Success</span>
+                        <h3>From Hard Work to Success</h3>
+                        <p>Discover the proven strategies that transform effort into achievement and learn how to measure your progress effectively.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">About Us</h2>
+                <p class="fade-in">ModernBlog is dedicated to providing high-quality content on technology, design, productivity, and career development. Our team of experts shares their knowledge and insights to help you stay ahead in the digital world.</p>
+                <p class="fade-in">Founded in 2020, we've grown into a trusted resource for professionals and enthusiasts alike. Our mission is to make complex topics accessible and provide practical advice you can apply immediately.</p>
+                <div class="stats fade-in">
+                    <div class="stat-item">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Articles Published</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">2000+</span>
+                        <span class="stat-label">Monthly Readers</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Expert Contributors</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info fade-in">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-envelope"></i> contact@modernblog.com</p>
+                    <p><i class="fas fa-phone"></i> +92 3456789222</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 New Street, Karachi Pakistan</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form fade-in">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ModernBlog</h3>
+                    <p>Your source for the latest in technology, design, and career development.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#blogs">Blogs</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="#">Technology</a></li>
+                        <li><a href="#">Design</a></li>
+                        <li><a href="#">Productivity</a></li>
+                        <li><a href="#">Career</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Subscribe</h3>
+                    <p>Stay updated with our latest articles</p>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Your Email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 ModernBlog. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
